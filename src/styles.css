@@ -1,0 +1,51 @@
+#root {
+  margin-left: 50px;
+  margin-top: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(53, 52, 52);
+  color: #ffffff;
+}
+
+
+ul {
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+li {
+  list-style: none;
+}
+li > button{
+  margin-right: 15px;
+}
+
+button {
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+
+button + button {
+  margin-left: 15px;
+}
+
+li + li {
+  margin-top: 10px;
+}
+input {
+  display: block;
+  min-width: 200px;
+  width: 300px;
+  max-width: 400px;
+}
+form > button {
+  margin-top: 15px;
+}
